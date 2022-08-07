@@ -1,11 +1,15 @@
 /* переопределяем цвета и размеры */
 :root {
---color-black: #000000;
---color-blue: #34547a;
---color-gray: #727272;
-/* можно перезадавать любые свойства */
---font-size: 16px;
---font-family: 'Roboto', sans-serif;
+    --color-black: #000000;
+    --color-blue: #34547a;
+    --color-gray: #727272;
+    /* можно перезадавать любые свойства */
+    --font-size: 16px;
+    --font-family: 'Roboto', sans-serif;
+
+    --container-small-size: 540px;
+
+
 }
 
 *,
@@ -82,7 +86,8 @@ a {
 }
 
 .header-content {
-    max-width: 541px;
+    max-width: var(--container-small-size);
+    /* max-width: 540px; */
 }
 
 .header-content__title {
@@ -129,23 +134,27 @@ a {
     max-width: 225px;
 }
 
-
-.main {
-background-color: #f9f9f9;
-
-}
+.main {}
 
 .about {
-
+    padding: 100px 0;
+    background-color: #f9f9f9;
 }
-
-.container {}
 
 .container--sm {
-
-
+    max-width: var(--container-small-size);
 }
 
-.about_title {}
+.about_title {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 50px;
+}
 
-.about_description {}
+.about_description {
+    text-align: center;
+    color: #727272;
+}
