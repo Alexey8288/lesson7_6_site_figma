@@ -33,7 +33,7 @@ a {
 
 .header {
     min-height: 700px;
-    width: 1920px;
+    min-width: 1920px;
     background-color: #eeeff1;
     /* ставим отступы сверху и снизу */
     padding: 76px 0 140px 0;
@@ -52,7 +52,7 @@ a {
     /* разрешает перенос, в случае уменьшения экрана */
     flex-wrap: wrap;
     /* расстояние между словами в navbar */
-    column-gap: 42px;
+    column-gap: 43px;
 }
 
 .header-navbar__link.active {
@@ -85,7 +85,7 @@ a {
     /* поставили только в html */
     /* line-height: 26px; коэфициент 1.625 26px / 16px */
     color: #727272;
-    margin-bottom: 57px;
+    margin-bottom: 54px;
 }
 
 .header-content__actions {}
@@ -111,3 +111,24 @@ a {
     /* кнопка сможет увеличивать если будет две строчки */
     max-width: 225px;
 }
+
+
+.main {
+background-color: #f9f9f9;
+
+}
+
+.about {
+
+}
+
+.container {}
+
+.container--sm {
+
+
+}
+
+.about_title {}
+
+.about_description {}
