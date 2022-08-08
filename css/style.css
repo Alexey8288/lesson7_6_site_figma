@@ -9,7 +9,6 @@
 
     --container-small-size: 540px;
 }
-
 *,
 /* псевдоэлементы до и после, тоже все сбрасываем */
 *::before,
@@ -20,7 +19,6 @@
     /* сбрасывает все внутренние отступы */
     padding: 0;
 }
-
 html {
     /* добавляем google fonts */
     font-family: var(--font-family);
@@ -31,12 +29,10 @@ html {
     font-weight: 400;
     line-height: 1.625;
 }
-
 a {
     /* убираем подчеркивание на ссылках */
     text-decoration: none;
 }
-
 /* общие свойства для всех контейнеров */
 .container {
     /* прибавляем к размеру блока + padding 1110 + 20 + 20 */
@@ -45,7 +41,6 @@ a {
     /* ставим контейнер по середине */
     margin: 0 auto;
 }
-
 .header {
     min-height: 700px;
     min-width: 1920px;
@@ -53,12 +48,10 @@ a {
     /* ставим отступы сверху и снизу */
     padding: 76px 0 140px 0;
 }
-
 .header-navbar {
     /* отступ снизу, на случай если пропадет заголовок */
     margin-bottom: 142px;
 }
-
 .header-navbar__list {
     /* убираем точки слева, делаем его не лист */
     list-style-type: none;
@@ -69,13 +62,11 @@ a {
     /* расстояние между словами в navbar */
     column-gap: 43px;
 }
-
 .header-navbar__link.active {
     font-weight: 500;
     color: var(--color-blue);
     /* color: #34547a; */
 }
-
 .header-navbar__link {
     /* поставили только в html */
     /* line-height: 26px; коэфициент 1.625 26px / 16px */
@@ -83,12 +74,10 @@ a {
     color: var(--color-black);
     /* color: #000000; */
 }
-
 .header-content {
     max-width: var(--container-small-size);
     /* max-width: 540px; */
 }
-
 .header-content__title {
     /* поставили только в html */
     /* line-height: 79px; коэфициент 1.645 (1.625) 79px / 48px */
@@ -99,7 +88,6 @@ a {
     margin-top: 60px;
     margin-bottom: 35px;
 }
-
 .header-content__description {
     /* поставили только в html */
     /* line-height: 26px; коэфициент 1.625 26px / 16px */
@@ -107,7 +95,6 @@ a {
     /* color: #727272; */
     margin-bottom: 54px;
 }
-
 .header-content__link {
     /* поставили только в html */
     /* line-height: 26px; */
@@ -130,17 +117,14 @@ a {
     /* кнопка сможет увеличивать если будет две строчки */
     max-width: 225px;
 }
-
 .about {
     padding-top: 110px;
     padding-bottom: 92px;
     background-color: #f9f9f9;
 }
-
 .container--sm {
     max-width: var(--container-small-size);
 }
-
 .about_title {
     font-weight: 500;
     font-size: 32px;
@@ -149,19 +133,16 @@ a {
     color: #000000;
     margin-bottom: 40px;
 }
-
 .about_description {
     text-align: center;
     color: #727272;
 }
-
 .experience {
     background: var(--color-blue);
     padding: 100px 0 92px 0;
     /* задем цвет текста */
     color: white;
 }
-
 .container--experience {
     /* ставит в один ряд */
     display: flex;
@@ -169,25 +150,19 @@ a {
     /* размещает равномерно items */
     justify-content: space-between
 }
-
 .experience-item {
     /* ставит в ряд картинку и текст */
     display: flex;
     gap: 20px;
 }
-
 .process {
     padding: 99px 0 92px 0;
 }
-
-.container {}
-
 .process__content {
     max-width: var(--container-small-size);
     /* ставим блок по середине*/
     margin: auto;
 }
-
 .process__title {
     font-weight: 500;
     font-size: 32px;
@@ -196,26 +171,22 @@ a {
     color: #000000;
     margin-bottom: 39px;
 }
-
 .process__description {
     text-align: center;
     color: #727272;
     margin-bottom: 49px;
 }
-
 .precess__video {
     /* не обязательно... */
     border: none;
     width: 100%;
     height: 600px;
 }
-
 .footer {
     background-color: var(--color-blue);
     color: white;
     padding: 50px 0 44px 0;
 }
-
 .footer__name {
     font-weight: 500;
     font-size: 21px;
@@ -223,7 +194,6 @@ a {
     color: #FFFFFF;
     margin-bottom: 12px;
 }
-
 .footer__copyright {
     font-size: 13px;
     line-height: 21px;
