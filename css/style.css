@@ -182,13 +182,26 @@ a {
 
 .container {}
 
-.process_content {
+.process__content {
     max-width: var(--container-small-size);
+    /* ставим блок по середине*/
+    margin: auto;
 }
 
-.process_title {}
+.process__title {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 50px;
+}
 
-.process_description {}
+.process__description {
+    text-align: center;
+    color: #727272;
+    margin-bottom: 57px;
+}
 
 .precess__video {
     /* не обязательно... */
