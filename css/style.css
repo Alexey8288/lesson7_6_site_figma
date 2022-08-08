@@ -161,6 +161,42 @@ a {
 }
 
 .experience {
-background: var(--color-blue);
-height: 200px;
+    background: var(--color-blue);
+    padding: 90px 0;
+    /* задем цвет текста */
+    color: white;
+}
+
+
+.container {}
+
+.container--experience {
+    /* ставит в один ряд */
+    display: flex;
+
+}
+
+.experience-item {
+
+
+}
+
+.experience-item__image {
+
+
+}
+
+.experience-item__description {
+
+
+}
+
+.experience-item__number {
+
+
+}
+
+.experience-item__text {
+
+    
 }
