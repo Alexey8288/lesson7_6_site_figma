@@ -8,8 +8,6 @@
     --font-family: 'Roboto', sans-serif;
 
     --container-small-size: 540px;
-
-
 }
 
 *,
@@ -109,8 +107,6 @@ a {
     margin-bottom: 54px;
 }
 
-.header-content__actions {}
-
 .header-content__link {
     /* поставили только в html */
     /* line-height: 26px; */
@@ -133,8 +129,6 @@ a {
     /* кнопка сможет увеличивать если будет две строчки */
     max-width: 225px;
 }
-
-.main {}
 
 .about {
     padding-top: 110px;
@@ -191,5 +185,7 @@ a {
 
 .process_description {}
 
-.precess__video {}
-
+.precess__video {
+    /* не обязательно... */
+    border: none;
+}
