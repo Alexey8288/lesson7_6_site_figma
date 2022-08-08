@@ -37,6 +37,7 @@ a {
     text-decoration: none;
 }
 
+/* общие свойства для всех контейнеров */
 .container {
     /* прибавляем к размеру блока + padding 1110 + 20 + 20 */
     max-width: 1150px;
@@ -176,8 +177,7 @@ a {
 }
 
 .process {
-    padding: 100px 0 110px 0;
-
+    padding: 99px 0 92px 0;
 }
 
 .container {}
@@ -194,13 +194,13 @@ a {
     line-height: 38px;
     text-align: center;
     color: #000000;
-    margin-bottom: 50px;
+    margin-bottom: 39px;
 }
 
 .process__description {
     text-align: center;
     color: #727272;
-    margin-bottom: 57px;
+    margin-bottom: 49px;
 }
 
 .precess__video {
@@ -208,4 +208,24 @@ a {
     border: none;
     width: 100%;
     height: 600px;
+}
+
+.footer {
+    background-color: var(--color-blue);
+    color: white;
+    padding: 50px 0 44px 0;
+}
+
+.footer__name {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin-bottom: 12px;
+}
+
+.footer__copyright {
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
 }
