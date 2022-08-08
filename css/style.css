@@ -162,41 +162,21 @@ a {
 
 .experience {
     background: var(--color-blue);
-    padding: 90px 0;
+    padding: 100px 0 92px 0;
     /* задем цвет текста */
     color: white;
 }
 
-
-.container {}
-
 .container--experience {
     /* ставит в один ряд */
     display: flex;
-
+    gap: 20px;
+    /* размещает равномерно items */
+    justify-content: space-between
 }
 
 .experience-item {
-
-
-}
-
-.experience-item__image {
-
-
-}
-
-.experience-item__description {
-
-
-}
-
-.experience-item__number {
-
-
-}
-
-.experience-item__text {
-
-    
+    /* ставит в ряд картинку и текст */
+    display: flex;
+    gap: 20px;
 }
