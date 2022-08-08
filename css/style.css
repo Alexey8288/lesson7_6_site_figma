@@ -137,7 +137,8 @@ a {
 .main {}
 
 .about {
-    padding: 100px 0;
+    padding-top: 110px;
+    padding-bottom: 92px;
     background-color: #f9f9f9;
 }
 
@@ -151,10 +152,15 @@ a {
     line-height: 38px;
     text-align: center;
     color: #000000;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 .about_description {
     text-align: center;
     color: #727272;
+}
+
+.experience {
+background: var(--color-blue);
+height: 200px;
 }
